@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemrogaman Berbasis Web</title>
+</head>
+<body>
+    <hr size="3px" color="black"/>
+    <!-- Disini saya menggunakan garis berukuran 3 pixel dan berwarna hitam -->
+    <table border="1" cellpadding="10">
+        <!-- Tabel bergaris tepi 1 dan jarak ke sel tabelnya sebesar 10 -->
+        <tr>
+            <th colspan="3">Biodata</th>
+            <!-- Mengisi 3 kolom tabel sekaligus -->
+        </tr>
+        <tr>
+            <!-- Mengisi 3 kolom tabel dengan td -->
+            <td>Nama</td>
+            <td>:</td>
+            <td>Hilmi</td>
+        </tr>
+        <tr>
+            <!-- Mengisi 3 kolom tabel dengan td -->
+            <td>NIM</td>
+            <td>:</td>
+            <td>220441100156</td>
+        </tr>
+        <tr>
+            <!-- Mengisi 3 kolom tabel dengan td -->
+            <td>Alamat</td>
+            <td>:</td>
+            <td>Morosunggingan</td>
+        </tr>
+    </table>
+    
+    <h2>Daftar Belanja Saya</h2>
+    <!-- Memakai H2 untuk membuat judul bold -->
+    <form action="" method="POST">
+        <!-- membuat form dengan method post -->
+        <p>
+            <label for="">Perlengkapan Dapur:</label><input type="text" name="2">
+            <!-- membuat isian form dengan textbox -->
+        </p>
+      <p>
+            <label for="">Perlengkapan Mandi:</label><input type="text" name="1">
+            <!-- membuat isian form dengan textbox -->
+      </p>  
+      <p>
+        <label><input type="radio" name="Perlengkapan" value="enough" /> Sudah Cukup </label>
+        <!-- membuat isian form dengan radio -->
+        <label><input type="radio" name="Perlengkapan" value="buymore" /> Beli lagi</label>
+      </p>
+      <p>
+        <input type="submit" name="Selesai" value="Selesai" />
+        <!-- membuat isian form dengan tombol submit -->
+        <input type="submit" name="Hapus" value="Hapus" />
+        </p>
+    </form>
+</body>
+</html>
