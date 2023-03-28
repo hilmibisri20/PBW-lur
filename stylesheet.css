@@ -1,0 +1,217 @@
+
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+
+header{
+  background-color: green;
+  color: white;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+.header-list li{
+  float: left;
+  padding: 25px 20px;
+  border-right:2px solid white;
+}
+
+.header-logo{
+  padding: 15px 30px;
+  float: left;
+}
+.header-logo img{
+  width: 40px;
+  height: 40px;
+}
+
+
+.banner{
+  text-align: center;
+  background: url(mount.jpg);
+  padding: 250px 100px;
+  background-size: cover;
+  color: white;
+}
+
+.container{
+  width: 1100px;
+  /* width: 500;
+  height: 500; */
+
+  margin: 0 auto;
+}
+
+.banner h1{
+  font-size: 100px;
+  opacity: 0.9;
+}
+
+
+.banner h2{
+  font-size: 20px;
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+/* span{
+  color: #ff4a4a;
+} */
+
+.btn-daftar{
+  margin: 20px 0;
+}
+
+.btn-daftar p{
+  margin: 10px 0;
+}
+
+.btn{
+  padding : 12px 24px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.email{
+  background-color: #239b76;
+}
+.started{
+  background-color: blue  ;
+  margin-right: 40px;
+  color: white;
+}
+.learn{
+  background-color: white;
+  color: blue;
+
+}
+.now{
+  background-color: green;
+  background: linear-gradient(rgb(238, 18, 18));
+  color: white;
+  margin-left: 40px;
+  -webkit-text-fill-color: aqua;
+  
+}
+.bi{
+  margin-right: 4px;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+.content{
+  margin-top: 100px;
+  height: 500px;
+}
+
+.judul-content{
+  font-size: 28px;
+  border-bottom: 2px solid #09a9ff;
+  margin-bottom: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.features{
+  float: left;
+  margin-right: 60px;
+  margin-left: 60px;  
+}
+.features img{
+  width: 230px;
+  height: 230px;
+}
+.features p{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+}
+.about{float: left;
+  margin-right: 60px;
+  margin-left: 60px; }
+.about img{width: 230px;
+  height: 230px;
+  margin-right: 360px;
+  margin-left: 360px;
+  margin-bottom: 50px;}  
+.about p{text-align: justify;
+    font-size: 24px;
+    margin-top: 30px;
+  }
+.contact{
+  padding-top: 200px;
+}
+
+input, textarea{
+  border: 1px solid blue;
+  width: 300px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: px;
+}
+
+.form p{
+  padding-bottom: 10px;
+}
+
+.submit{
+  font-size: 18px;
+  color: blue;
+  background-color: white;
+}
+
+footer{
+  background-color:rgba(0, 0, 255, 0.616);
+  color:#fff;
+  width: 97%; 
+  height: 150px;
+  padding: 20px;
+  margin-top:100px;
+}
+
+.footer-logo{
+  float: left;
+}
+.footer-logo img{
+  width: 50px;
+  height: 50px;
+}
+
+.footer-list{
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-list li{
+  padding-bottom: 20px;
+}
+.footer-list2{
+  float: left;
+  margin-left: 30px;
+}
+
+.footer-list2 li{
+  padding-bottom: 20px;
+}
